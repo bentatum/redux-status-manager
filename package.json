@@ -1,7 +1,7 @@
 {
   "name": "redux-status-manager",
-  "version": "0.0.1",
-  "description": "success, pending and failure states for a given key",
+  "version": "1.0.0",
+  "description": "success, pending and failure states for a given redux action type",
   "main": "dist/index.js",
   "repository": "https://github.com/bentatum/redux-status-manager",
   "author": "Ben Tatum <mail@benjtatum.com>",

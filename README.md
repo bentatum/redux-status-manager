@@ -16,7 +16,7 @@ export default combineReducers(reducers)
 
 ## Usage
 
-### dispatch a series of statuses
+### dispatching statuses
 
 this example uses redux-saga.
 
@@ -40,7 +40,7 @@ export default function * ({ payload }) {
 }
 ```
 
-### get status from component
+### in a component
 
 a common use case might be displaying a progress indicator or an error message based on the status of a given asynchronous action.
 
