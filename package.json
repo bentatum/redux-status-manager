@@ -1,0 +1,19 @@
+{
+  "name": "redux-status-manager",
+  "version": "0.0.1",
+  "description": "success, pending and failure states for a given key",
+  "main": "dist/index.js",
+  "repository": "https://github.com/bentatum/redux-status-manager",
+  "author": "Ben Tatum <mail@benjtatum.com>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -rf dist/",
+    "build": "babel -d dist/ src/"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40"
+  }
+}
