@@ -9,7 +9,7 @@
   "scripts": {
     "prebuild": "rm -rf dist/",
     "build": "babel -d dist/ src/",
-    "prepublish": "yarn build"
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.40",
