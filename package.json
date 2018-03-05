@@ -1,6 +1,6 @@
 {
   "name": "redux-status-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "success, pending and failure states for a given redux action type",
   "main": "dist/index.js",
   "repository": "https://github.com/bentatum/redux-status-manager",
@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "rm -rf dist/",
-    "build": "babel -d dist/ src/"
+    "build": "babel -d dist/ src/",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.40",

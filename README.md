@@ -25,13 +25,12 @@ import axios from 'axios'
 import { put } from 'redux-saga/effects'
 import { pending, success, failure } from 'redux-status-manager'
 import { MY_EXAMPLE } from '../actionTypes'
-import { set } from '../actions'
 
 export default function * ({ payload }) {
   try {
     yield put(pending(MY_EXAMPLE))
 
-    // ...perform some asynchronous action
+    // perform asynchronous action(s)...
 
     yield put(success(MY_EXAMPLE))
   } catch (err) {
