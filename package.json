@@ -1,6 +1,6 @@
 {
   "name": "redux-status-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "success, pending and failure states for a given redux action type",
   "main": "dist/index.js",
   "repository": "https://github.com/bentatum/redux-status-manager",
